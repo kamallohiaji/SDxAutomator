@@ -35,7 +35,7 @@ $result= json_decode($response,true);
 
 $token = $result['imdata'][0]['aaaLogin']['attributes']['token'];
 //echo $token;
-header("Location: http://localhost/Admin/onboarding.php?token=".$token);
+header("Location: http://localhost/SDxAutomator/onboarding.php?token=".$token);
 die();
 //header('Location:mapping.php?token='+token);
 
