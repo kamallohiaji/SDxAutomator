@@ -329,7 +329,7 @@ if(isset($_POST["endpoint"])){
                 <div class="card-body">
                   <form name="network" method="post" action='?token='.<?=$_GET["token"]?>>
                   <div class="form-group">
-                    <label for="exampleInputFile">Private Network</label>
+                    <label for="exampleInputFile">Private Network/VRF</label>
                     <div class="input-group">
                       <div class="custom-file">
                         <input type="text" class="form-control" name="pvt_network" id="exampleInputFile">
